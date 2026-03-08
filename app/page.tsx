@@ -5,7 +5,7 @@ import { ProductsSection } from "@/components/products-section"
 import { SocialSection } from "@/components/social-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { WhatsAppChatbot } from "@/components/WhatsAppChatbot"
 
 export default function HomePage() {
   return (
@@ -17,7 +17,7 @@ export default function HomePage() {
       <SocialSection />
       <CTASection />
       <Footer />
-      <WhatsAppButton />
+      <WhatsAppChatbot />
     </main>
   )
 }
